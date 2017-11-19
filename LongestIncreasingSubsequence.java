@@ -57,10 +57,6 @@ public class LongestIncreasingSubsequence {
                         L[i]=L[j]+1;
                         S[i]=j; //ARGMAX logic
                     }
-                    else
-                    {
-                        S[i]=i; //ARGMAX logic
-                    }
                 }
             }
         }
