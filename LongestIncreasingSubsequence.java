@@ -20,9 +20,9 @@ public class LongestIncreasingSubsequence {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the length of the sequence");
         n=Integer.parseInt(in.readLine());
-        Integer arr[] = new Integer[n]; //input array
-        Integer L[]=  new Integer[n]; // length of LIS array
-        Integer S[]= new Integer[n]; // array storing the subsequence
+        int arr[] = new int[n]; //input array
+        int L[]=  new int[n]; // length of LIS array
+        int S[]= new int[n]; // array storing the subsequence
         // Accepting input
         System.out.println("Enter the numbers");
         for(i=0;i<n;i++)
